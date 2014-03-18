@@ -14,6 +14,6 @@
   }
   
   function destroy_session() {
-    // print "Session détruite<br>";
+    print "Session détruite<br>";
     session_destroy();
   }
