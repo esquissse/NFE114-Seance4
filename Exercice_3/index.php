@@ -4,7 +4,7 @@
 
   if ( creer_utiliser_session() )
   {
-    echo "<br>Je suis connecté ! : ". $_SESSION["utilisateur"]; 
+    echo "<br>Je suis connecté en tant que ". $_SESSION["utilisateur"]; 
   }
   ?>
   <!doctype html>
@@ -12,7 +12,7 @@
   <body>
     <nav>
       <ul>
-        <li><a href="#">Envoyer une photo</a></li>
+        <li><a href="ajout_photo.php">Envoyer une photo</a></li>
         <li><a href="#">Supprimer une photo</a></li>
         <li><a href="close_session.php">Fermer sa session</a></li> 
     </nav>
