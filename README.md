@@ -14,6 +14,7 @@ Exercice 2:
 -----------
 
 Cet exercice permet de réaliser un tableau dynamique, l'utilisateur doit saisir le nombre de ligne et de colonne qu'il désire et le script va construire le tableau avec dans chaque case le formaté de la façon suivante :
+
 1. (le n° de ligne,n° de colonne)
 2. avec des images.
 
